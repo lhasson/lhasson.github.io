@@ -9,11 +9,8 @@ function buildScreen1()
   shape.graphics.beginFill("#000000").drawRect(0, 0, cw, ch);
   screen1.addChild(shape);
 
-  
-  
-loadStuff();
+  loadStuff();
     
- 
 }
 
 
@@ -23,7 +20,7 @@ function loadStuff()
   {
 
     "animations": {
-        wind: [0, 224, "wind", .1]
+        wind: [0, 218, "wind", .1]
     },
 
     "images": [preload.getResult("cloud")],
