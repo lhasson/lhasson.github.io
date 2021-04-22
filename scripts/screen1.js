@@ -10,17 +10,12 @@ function buildScreen1()
   screen1.addChild(shape);
 
   
-    addAudio();
+  
 loadStuff();
     
  
 }
 
-function addAudio()
-{
-    music = createjs.Sound.play("descending", {interrupt: createjs.Sound.INTERRUPT_ANY, loop:-1});
-    music.volume = 0.1;
-}
 
 function loadStuff()
 {

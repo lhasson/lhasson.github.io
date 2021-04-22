@@ -43,10 +43,10 @@ function preloadAssets()
 
 
   preload = new createjs.LoadQueue();
-  preload.installPlugin(createjs.Sound);
+ 
 
   preload.loadFile({id:"cloud", src:"images/cloud2.png"});
-  preload.loadFile({id:"descending",src:"audio/descending.mp3"});
+
   preload.on("complete", preloadComplete, this);  
 }
 
